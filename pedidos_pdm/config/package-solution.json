@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pedidos-pdm-client-side-solution",
+    "id": "ae9a8d3c-fff6-4a6b-95cc-55257fe1c358",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "pedidos-pdm description"
+      },
+      "longDescription": {
+        "default": "pedidos-pdm description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pedidos-pdm Feature",
+        "description": "The feature that activates elements of the pedidos-pdm solution.",
+        "id": "07754967-7be3-40d3-9b95-7bafa628ec01",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pedidos-pdm.sppkg"
+  }
+}

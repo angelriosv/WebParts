@@ -1,0 +1,49 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6a27b0cb-4e37-400f-b0a8-06f79ea8ecf6",
+  "alias": "WcsStatus5WebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+    "group": { "default": "Advanced" },
+    "title": { "default": "wcs_status_5" },
+    "description": { "default": "wcs_status_5 description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "wcs_status_5",
+      "first_pillar" : "WCS CD",
+      "second_pillar" : "WCS PD",
+      "third_pillar" : "WCS FI",
+      "fourth_pillar" : "WCS SAF",
+      "fifth_pillar" : "WCS ENV",
+      "first_link" : "#",
+      "second_link" : "#",
+      "third_link" : "#",
+      "fourth_link" : "#",
+      "fifth_link" : "#",
+      "first_weblist" : "wcs_cd",
+      "first_list" : "WCS_CD_Entregables",
+      "second_weblist" : "wcs_pd",
+      "second_list" : "WCS_PD_Entregables",
+      "third_weblist" : "wcs_fi",
+      "third_list" : "WCS_FI_Entregables",
+      "fourth_weblist" : "wcs_saf",
+      "fourth_list" : "WCS_SAF_Entregables",
+      "fifth_weblist" : "wcs_env",
+      "fifth_list" : "WCS_ENV_Entregables"
+    }
+  }]
+}

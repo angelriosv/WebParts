@@ -1,0 +1,31 @@
+define([], function() {
+  return {
+    "PropertyPaneDescription": "Description",
+    "BasicGroupName": "Group Name",
+    "DescriptionFieldLabel": "Description Field",
+    "first_pillarFieldLabel": "Set the first Pillar Name",
+    "second_pillarFieldLabel": "Set the second Pillar Name",
+    "third_pillarFieldLabel": "Set the third Pillar Name",
+    "fourth_pillarFieldLabel": "Set the fourth Pillar Name",
+    "fifth_pillarFieldLabel": "Set the fifth Pillar Name",
+    "first_linkFieldLabel": "Set the link for the first Pillar",
+    "second_linkFieldLabel": "Set the link for the second Pillar",
+    "third_linkFieldLabel": "Set the link for the third Pillar",
+    "fourth_linkFieldLabel": "Set the link for the fourth Pillar",
+    "fifth_linkFieldLabel": "Set the link for the fifth Pillar",
+    "first_weblistFieldLabel": "Set the web name for the first Pillar",
+    "first_listFieldLabel": "Set the name for the first Pillar list",
+    "second_weblistFieldLabel": "Set the web name for the second Pillar",
+    "second_listFieldLabel": "Set the name for the second Pillar list",
+    "third_weblistFieldLabel": "Set the web name for the third Pillar",
+    "third_listFieldLabel": "Set the name for the third Pillar list",
+    "fourth_weblistFieldLabel": "Set the web name for the fourth Pillar",
+    "fourth_listFieldLabel": "Set the name for the fourth Pillar list",
+    "fifth_weblistFieldLabel": "Set the web name for the fifth Pillar",
+    "fifth_listFieldLabel": "Set the name for the fifth Pillar list",
+    "AppLocalEnvironmentSharePoint": "The app is running on your local environment as SharePoint web part",
+    "AppLocalEnvironmentTeams": "The app is running on your local environment as Microsoft Teams app",
+    "AppSharePointEnvironment": "The app is running on SharePoint page",
+    "AppTeamsTabEnvironment": "The app is running in Microsoft Teams"
+  }
+});

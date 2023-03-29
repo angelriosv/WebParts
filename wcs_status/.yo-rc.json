@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "wcs-status",
+    "libraryId": "159f722d-c37e-49ac-a75f-26ba172bc75c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "wcs-status",
+    "solutionShortDescription": "wcs-status description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "update-list",
+    "libraryId": "eddc1b70-ae60-4b94-8be2-ef8757693fe0",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "update-list",
+    "solutionShortDescription": "update-list description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

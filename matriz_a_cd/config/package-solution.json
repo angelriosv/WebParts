@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "matriz-a-cd-client-side-solution",
+    "id": "278710ab-fb25-4a02-bcae-0c5bf7dbd246",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "matriz-a-cd description"
+      },
+      "longDescription": {
+        "default": "matriz-a-cd description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "matriz-a-cd Feature",
+        "description": "The feature that activates elements of the matriz-a-cd solution.",
+        "id": "6aead9bd-4e52-47bc-8c5d-b857508dc685",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/matriz-a-cd.sppkg"
+  }
+}

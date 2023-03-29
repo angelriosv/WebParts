@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wcs-status-client-side-solution",
+    "id": "159f722d-c37e-49ac-a75f-26ba172bc75c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "wcs-status description"
+      },
+      "longDescription": {
+        "default": "wcs-status description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "wcs-status Feature",
+        "description": "The feature that activates elements of the wcs-status solution.",
+        "id": "fdcda1c4-a2e3-4ad8-a072-82e509cb695a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/wcs-status.sppkg"
+  }
+}

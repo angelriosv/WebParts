@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "wcs-statur-5",
+    "libraryId": "97a00f3a-4942-4bb6-906d-89f829737df9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "wcs-statur-5",
+    "solutionShortDescription": "wcs-statur-5 description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

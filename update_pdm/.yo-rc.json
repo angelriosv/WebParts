@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "update-pdm",
+    "libraryId": "f821edc6-25f2-4424-b481-6ecadac3ad35",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "update-pdm",
+    "solutionShortDescription": "update-pdm description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

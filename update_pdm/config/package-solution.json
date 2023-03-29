@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "update-pdm-client-side-solution",
+    "id": "f821edc6-25f2-4424-b481-6ecadac3ad35",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "update-pdm description"
+      },
+      "longDescription": {
+        "default": "update-pdm description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "update-pdm Feature",
+        "description": "The feature that activates elements of the update-pdm solution.",
+        "id": "2304a276-ac0a-441c-b0f7-9b84ae4e4420",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/update-pdm.sppkg"
+  }
+}

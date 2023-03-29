@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wcs-statur-5-client-side-solution",
+    "id": "97a00f3a-4942-4bb6-906d-89f829737df9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "wcs-statur-5 description"
+      },
+      "longDescription": {
+        "default": "wcs-statur-5 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "wcs-statur-5 Feature",
+        "description": "The feature that activates elements of the wcs-statur-5 solution.",
+        "id": "2e2cd799-1434-4699-afe6-73e55eb9b3bd",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/wcs-statur-5.sppkg"
+  }
+}

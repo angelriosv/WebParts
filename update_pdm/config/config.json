@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "update-pdm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/updatePdm/UpdatePdmWebPart.js",
+          "manifest": "./src/webparts/updatePdm/UpdatePdmWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UpdatePdmWebPartStrings": "lib/webparts/updatePdm/loc/{locale}.js"
+  }
+}

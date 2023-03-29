@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "matriz-a-cd",
+    "libraryId": "278710ab-fb25-4a02-bcae-0c5bf7dbd246",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "matriz-a-cd",
+    "solutionShortDescription": "matriz-a-cd description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

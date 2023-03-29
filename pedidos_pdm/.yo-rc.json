@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "pedidos-pdm",
+    "libraryId": "ae9a8d3c-fff6-4a6b-95cc-55257fe1c358",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pedidos-pdm",
+    "solutionShortDescription": "pedidos-pdm description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

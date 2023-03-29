@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wcs-status-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wcsStatus/WcsStatusWebPart.js",
+          "manifest": "./src/webparts/wcsStatus/WcsStatusWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WcsStatusWebPartStrings": "lib/webparts/wcsStatus/loc/{locale}.js"
+  }
+}

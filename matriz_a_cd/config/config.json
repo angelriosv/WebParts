@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "matriz-a-cd-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/matrizACd/MatrizACdWebPart.js",
+          "manifest": "./src/webparts/matrizACd/MatrizACdWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MatrizACdWebPartStrings": "lib/webparts/matrizACd/loc/{locale}.js"
+  }
+}

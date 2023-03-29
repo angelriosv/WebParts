@@ -1,0 +1,224 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.pedidosPdm {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  max-height: 600px;
+  min-height: 600px;
+}
+
+.filtros {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.pedido {
+  display: grid;
+  border: 5px solid rgb(64, 116, 153);
+  height: 150px;
+  margin-top: 7px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.status_base {
+  width: 90%;
+  height: 20px;
+  background-color: #666;
+  margin: auto;
+  padding: 0;
+}
+
+.status_pedido {
+  height: 100%;
+  color: #2aa52a;
+  background-color: #2aa52a;
+}
+
+.fecha {
+  margin: auto;
+}
+
+.valores {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.valores:last-child {
+  margin-bottom: 7px;
+}
+
+.pedidos {
+  word-break: keep-all;
+  background-color: #bacae2;
+  max-height: inherit;
+  display: grid;
+  grid-template-rows: 2fr 6fr;
+}
+
+.pedido:hover {
+  background-color: rgb(163, 177, 199);
+}
+
+.disgregado {
+  word-break: keep-all;
+  background-color: rgb(64, 116, 153);
+  height: 100%;
+  color: aliceblue;
+}
+
+.valores::-webkit-scrollbar {
+  width: 7px;
+}
+
+.valores::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+.valores::-webkit-scrollbar-thumb{
+  background: transparent;
+  border-radius: 7px;
+}
+
+.valores:hover::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+.disgregado {
+  display: grid;
+  grid-template-rows: 2fr 6fr;
+  max-height: inherit;
+}
+
+.filtros2 {
+  margin: auto;
+}
+
+.areas {
+  display: inline;
+}
+
+.filtroscheckbox {
+  margin: auto;
+}
+
+.cant_entr {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  display: grid;
+}
+
+.cant_tot {
+  text-align: right;
+}
+
+.cant_part {
+  text-align: right;
+}
+
+.nombre_pedido {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+.porcentaje {
+  width: 99%;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.porcentaje_valor {
+  text-align: right;
+}
+
+.atributo {
+  display: inline;
+  cursor: pointer;
+}
+
+.pedido_soluciones {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.pedido_solucion {
+  display: grid;
+  border: 5px solid rgb(98, 178, 149);
+  grid-template-columns: 1fr 1fr;
+  height: 200px;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.pedido_soluciones:last-child {
+  margin-bottom: 7px;
+}
+
+.pedido_soluciones::-webkit-scrollbar {
+  width: 7px;
+}
+
+.pedido_soluciones::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+.pedido_soluciones::-webkit-scrollbar-thumb{
+  background: transparent;
+  border-radius: 7px;
+}
+
+.pedido_soluciones:hover::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+.solucion_izquierda {
+  margin-top: auto;
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+
+.cant_sol{
+  height: 20px;
+  width: 90%;
+  background-color: #666;
+  margin-bottom: 10px;
+}
+
+.sol_ent {
+  height: 100%;
+  // width: 80%;
+  background-color: #2aa52a;
+}
+
+.porcentaje_de_entrega {
+  margin-bottom: 10px;
+}
+
+.solucion_derecha {
+  margin-top: 15px;
+  display: grid;
+  margin-left: 7px;
+}
+
+.areass {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  height: 20px;
+  width: 90%;
+}
