@@ -1,0 +1,31 @@
+declare const styles: {
+    container: string;
+    arrow_complete_1: string;
+    arrow_complete_2: string;
+    arrow_complete_1_1: string;
+    arrow_complete_2_1: string;
+    arrow_running_1: string;
+    arrow_running_2: string;
+    arrow_running_1_1: string;
+    arrow_running_2_1: string;
+    arrow_empty_1: string;
+    arrow_empty_2: string;
+    arrow_empty_1_1: string;
+    arrow_empty_2_1: string;
+    step_1: string;
+    step_2: string;
+    step_3: string;
+    step_4: string;
+    step_5: string;
+    step_6: string;
+    step_7: string;
+    arrow: string;
+    text_show: string;
+    text_show_1: string;
+    text: string;
+    image: string;
+    list: string;
+    listItem: string;
+};
+export default styles;
+//# sourceMappingURL=WcsStatusWebPart.module.scss.d.ts.map
